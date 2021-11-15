@@ -1,7 +1,7 @@
 @import url('http://fonts.cdnfonts.com/css/one-day');
 body {
     font-family: "Open Sans", sans-serif;
-    color: #444444;
+    color: #EDE4BA;
   }
   
   a {
@@ -63,7 +63,7 @@ body {
     height: 100%;
     position: relative;
     padding: 7% 0 0 0;
-    color: rgba(255, 255, 255, 0.8);
+    color: #EDE4BA;
     background: rgba(145, 39, 36, 1); 
     min-height: 100vh;
 
@@ -135,17 +135,22 @@ body {
   } 
   .validation-container form input {
       border: none;
-      background-color: rgba(255, 255, 255, 0.8);
+      background-color: #EDE4BA;
+      color: rgba(145, 39, 36, 1);
       border-radius: 10px;
       padding: 5px 15px;
       outline: none;
   }
+  .validation-container form input::placeholder {
+    color: rgba(145, 39, 36, 1);
+  }
   .validation-container form button {
-      background-color: rgba(33, 79, 196, 0.8);
+      background-color: #EDE4BA;
       border: none;
       border-radius: 10px;
       font-family: 'ONE DAY', sans-serif;
-      color: #fff;
+      font-size: 1.1rem;
+      color: rgba(145, 39, 36, 1);
       padding: 5px 7px;
       box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.2);
   }

@@ -66,7 +66,7 @@ body {
     height: 100%;
     position: relative;
     padding: 7% 0 0 0;
-    color: rgba(255, 255, 255, 0.8);
+    color: #EDE4BA;
     background: rgba(145, 39, 36, 1); 
     min-height: 100vh;
 
@@ -124,10 +124,6 @@ body {
   #qrcode .desc-container p {
     line-height: 2;
   }
-  #qrcode .qrcode-box {
-    background-color: #EDE4BA;
-    height: 200px;
-    width: 200px;
-  }
+  
   
   
