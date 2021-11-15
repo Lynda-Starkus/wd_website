@@ -21,7 +21,10 @@ body {
     font-weight: 500;
     line-height: 1.2;
   }
-  
+  h2 {
+    text-align: center;
+  }
+
   /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -56,9 +59,9 @@ body {
     max-height: 40px;
   }
   /*--------------------------------------------------------------
-# Grille
+# Qr code
 --------------------------------------------------------------*/
-  #grille {
+  #qrcode {
     width: 100%;
     height: 100%;
     position: relative;
@@ -68,84 +71,63 @@ body {
     min-height: 100vh;
 
   }
-  #grille:before {
+  #qrcode:before {
     content: "";
     background: rgba(145, 39, 36, 1);  
-    position: relative;
+    position: absolute;
     z-index: -1;
     bottom: 0;
     top: 0;
     left: 0;
     right: 0;
   }
-  #grille .red-circle {
+  #qrcode .green-circle {
       position: absolute;
       right: 0%;
-      top: 20%;
+      top: 0%;
       height: 20%;
-      animation: anime1 5s ease-in-out infinite;
+      animation: anime2 5s ease-in-out infinite;
   }
-  #grille .orange-circle {
+  
+  #qrcode .blue-circle {
       position: absolute;
-      bottom: 0%;
+      bottom: 10%;
       left: 0%;
       height: 20%;
-      animation: anime1 5s ease-in-out infinite;
+      animation: anime2 5s ease-in-out infinite;
   }
-  @keyframes anime1 {
+  @keyframes anime2 {
     0% {
         transform: translateY(0);
     }
     50% {
-        transform: translateY(20px); 
+        transform: translateY(-20px); 
     }
     100% {
       transform: translateY(0);
   }
 
 }
-
   @media only screen and (max-width: 768px){
-      #grille {
+      #qrcode {
           padding-bottom: 80px;
       }
-    #grille .red-circle {
-        top: 10%;
+    #qrcode .green-circle {
         height: 10%;
     }
-    #grille .orange-circle {
+    #qrcode .blue-circle {
         height: 10%;
-    } 
-
+        bottom: 5%;
+    }
+    
   }
-  
-
-  #grille .desc-container p {
+  #qrcode .desc-container p {
     line-height: 2;
   }
-  #grille .indices-container .indices {
-    list-style-type: none;
+  #qrcode .qrcode-box {
+    background-color: #EDE4BA;
+    height: 200px;
+    width: 200px;
   }
   
-  #grille .indices-container .indice {
-      font-size: 1.2rem;
-  }
-  .validation-container h3 {
-      padding-left: 15px;
-  } 
-  .validation-container form input {
-      border: none;
-      background-color: rgba(255, 255, 255, 0.8);
-      border-radius: 10px;
-      padding: 5px 15px;
-      outline: none;
-  }
-  .validation-container form button {
-      background-color: rgba(33, 79, 196, 0.8);
-      border: none;
-      border-radius: 10px;
-      font-family: 'ONE DAY', sans-serif;
-      color: #fff;
-      padding: 5px 7px;
-      box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.2);
-  }
+  
