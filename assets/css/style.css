@@ -1,6 +1,6 @@
-
+@import url('http://fonts.cdnfonts.com/css/one-day');
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Work Sans", sans-serif;
   color: #444444;
 }
 
@@ -14,8 +14,13 @@ a:hover {
   text-decoration: none;
 }
 
+@font-face {
+  font-family: "One day";
+  src: url(http://fonts.cdnfonts.com/css/one-day);
+                
+}
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "One day", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -73,7 +78,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #EDE4BA;
+  background: transparent;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -81,11 +86,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 .back-to-top i {
   font-size: 28px;
-  color: #EDE4BA;
+  color: transparent;
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #EDE4BA;
+  background: transparent;
   color: #EDE4BA;
 }
 .back-to-top.active {
@@ -109,13 +114,13 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: rgba(145, 39, 36, 1); 
+  background: transparent; 
 }
 #header.header-transparent {
   background: transparent;
 }
 #header.header-scrolled {
-  background: rgba(145, 39, 36, 1);
+  background: transparent;
   height: 60px;
 }
 #header .logo h1 {
@@ -126,7 +131,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 #header .logo h1 a, #header .logo h1 a:hover {
-  color: #EDE4BA;
+  color: transparent;
   text-decoration: none;
 }
 #header .logo img {
@@ -161,7 +166,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 0 10px 30px;
   font-size: 15px;
   font-weight: 500;
-  font-family: "Poppins", sans-serif;
+  font-family: "Work Sans", sans-serif;
   color: rgba(255, 255, 255, 0.7);
   white-space: nowrap;
   transition: 0.3s;
@@ -188,7 +193,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 25px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #EDE4BA;
+  color: transparent;
 }
 .navbar .dropdown ul {
   display: block;
@@ -200,7 +205,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  background: #EDE4BA;
+  background: transparent;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
   border-radius: 4px;
@@ -372,7 +377,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 24px;
 }
 #hero .btn-get-started {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -545,7 +550,7 @@ section {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #aaaaaa;
-  font-family: "Poppins", sans-serif;
+  font-family: "Work Sans", sans-serif;
 }
 .section-title h2::after {
   content: "";
@@ -561,7 +566,7 @@ section {
   font-size: 36px;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
+  font-family: "Work Sans", sans-serif;
   color: #010483;
 }
 
@@ -841,7 +846,7 @@ section {
 .counts .count-box p {
   padding: 0;
   margin: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-size: 14px;
 }
 
@@ -1072,7 +1077,7 @@ section {
   font-size: 36px;
   color: #EDE4BA;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family: "Work Sans", sans-serif;
   margin-bottom: 20px;
 }
 .pricing h4 sup {
@@ -1120,7 +1125,7 @@ section {
   transition: none;
   font-size: 14px;
   font-weight: 400;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-weight: 600;
   transition: 0.3s;
 }
@@ -1166,7 +1171,7 @@ section {
 .faq .faq-list a {
   display: block;
   position: relative;
-  font-family: "Poppins", sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
@@ -1366,7 +1371,7 @@ section {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Work Sans", sans-serif;
 }
 #footer .footer-top .social-links a {
   font-size: 18px;
